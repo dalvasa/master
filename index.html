@@ -9,114 +9,141 @@
     <title>Mi primer sitio web</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-<link rel="stylesheet" href="estilos.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		
-		<div class="textofloat1" >
-			
-		</div>
-		<a href="https://api.whatsapp.com/send?phone=+51949968477&text=Hola, Nececito mas informacion!" class="float" target="_blank">		
-		<i class="fa fa-whatsapp my-float"></i>
-		</a>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
 </head>
 <body>
     
-
      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="img/logo180x60.png" alt="Ellas Silvara">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio </a>
+                  </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Promociones.html">Promociones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="contactanos.html">Contactanos</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
 
-        <ol class="breadcrumb">
-            <li >
-                <img src="img/logo180x60.png" alt="Ellas Silvara">
-                
-            </li>
-            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-            <li class="breadcrumb-item"><a href="promociones.html">Promociones</a></li>
-            <li class="breadcrumb-item"><a href="galeria.html">Galeria</a></li>
-            <li class="breadcrumb-item"><a href="contactanos.html">Contactanos</a></li>
-         
-        </ol>
-      
-        
-       
+
     </header>
-    <section class="home" id="home">
 
+    <div class="textofloat1" >	
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=+51949968477&text=Hola, Nececito mas informacion!" class="float" target="_blank">		
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <section class="home" id="home">
         <div class="video-container">
-            <video src="img/pexels-ron-lach-8306450_pJ46aTZR.mp4" id="video-slider" loop autoplay muted></video>
+            <video src="img/pexels-ron-lach-8387487.mp4" id="video-slider" loop autoplay muted></video>
         </div>
         <h1 style="color: #131212;text-align: center" class="vc_custom_heading">Mundo de maravillas</h1>
-          <button style="color: #f24cf8;text-align: center," >Mas Inform</button>
-    
+          <button style="color: #f24cf8;text-align: center," >Mas Inform</button>  
     </section>
-    
-    <section  class="seccionCentrada">
-        
+    <!-- Seccion de Sobre nosotros -->
+    <section >
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="img/mujer2.png" alt="..." /></div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Sobre Nosotros</h2>
+                        <p>Somos una pequeña empresa conformada por las hermana Silvara, que abrio sus puertas en septiembre de 2021, con la finalidad de ofrecer productos tanto para hombres y dama.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section  class="seccionCentrada">
+       
         <h2 style="text-align:center">Sobre Nosotros</h2>
-        <table style="border:0px">
-            <thead>
-                <tr></tr>
-                <tr> 
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border:0px;width: 40%;">
-                        <h3>Somos una pequeña empresa conformada por las hermana Silvara, que abrio sus puertas en septiembre de 2021, con la finalidad de ofrecer productos tanto para hombres y damas.</h3>
-                    <td>
-                    <td style="border:0px">
-                        <img src="img/mujer.png" alt="Ropa de mujer">
-                    </td>
-                </td>
-           </tbody>
-        </table>
-       
-    </section>
-    <section class="seccionCentrada">
-       
-        <h2 style="color: #080808;text-align: center" class="vc_custom_heading">Promociones</h2>
-        <table class="table1" style="border-radius: 30px;  border: 1px solid rgb(201, 194, 194);">
-            <thead>
-                <tr style="width: 25%;"></tr>
-                <tr style="width: 25%;"></tr>
-                <tr style="width: 25%;"></tr>
-                <tr style="width: 25%;"></tr>
-               
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="img/damas2.png" alt="Ropa de damas">
-                    </td>
-                    <td>
-                        <img src="img/gorra.png" alt="Gorra">
-                    </td>
-                    <td>
-                        <img src="img/maquillaje.png" alt="Producto de maquillaje">
-                    </td>
-                    <td>
-                        <img src="img/images.png" alt="Perfume para caballero">
-                    </td>
-                  
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="img/mujer2.png" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Sobre Nosotros</h2>
+                            <p>Somos una pequeña empresa conformada por las hermana Silvara, que abrio sus puertas en septiembre de 2021, con la finalidad de ofrecer productos tanto para hombres y dama.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section 
+    </section> -->
 
-                </tr>
-                
+               <!-- seccion de promociones -->
+               <section>
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="p-5"><img class="img-fluid rounded-circle" src="img/maquillaje.png" alt="..." /></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-5">
+                                <h2 class="display-4">Promociones</h2>
+                                <p>Ofrecer la oportunidad a tu cliente de apartar tu producto sin pagarlo completamente permite fidelizar clientes. Las marcas que permiten este tipo de beneficios aumentan la lealtad: si aumentas los cupos de crédito para un cliente, es más probable que en el futuro inmediatodestine su presupuesto a tu marca y no a la competencia.</p>
+                                <p>Ellas silvara, ofrecemos a nuestra clientela, promociones 2×1 los martes y jueves. No dejes de visitarnos, y de seguro te enamoras.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+  <!--  <section class="about">
+
+                      <h2 style="color: #080808;text-align: center" class="vc_custom_heading">Promociones</h2>
+           
+                   <di v class="row">
+           
+                       <div class="image">
+                           <img src="img/maquillaje.png" alt="">
+                       </div>
+           
+                       <div class="content">
+                           <h2>Promociones Ellas Silvara</h2>
+                           <p>Ofrecer la oportunidad a tu cliente de apartar tu producto sin pagarlo completamente permite fidelizar clientes. Las marcas que permiten este tipo de beneficios aumentan la lealtad: si aumentas los cupos de crédito para un cliente, es más probable que en el futuro inmediatodestine su presupuesto a tu marca y no a la competencia.</p>
+                           <p>Ellas silvara, ofrecemos a nuestra clientela, promociones 2×1 los martes y jueves. No dejes de visitarnos, y de seguro te enamoras.</p>
+                       </div>
                    
+                   </div>         
+   </section>
+     -->
+
+     <!-- seccion de galerias  -->
 
 
-            </tbody>
-
-
-        </table>
-
-
-
-    </section>
 
     <section>
           <h2 style="color: #080808;text-align: center" class="vc_custom_heading">GALERÍA</h2>
@@ -136,10 +163,17 @@
 
     </section>   
 
+    <!-- seccion de ubicacion -->
+
      <h2 style="color: #080808;text-align: center" class="vc_custom_heading">Ubicación</h2>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d986.2839403798065!2d-71.1889385!3d8.5829431!3m2!1i1024!2i768!4f13.1!2m1!1spedregosa%20alta%20calle%20cafetal%20casa%20D6-18.%20merida%20venezuela!5e0!3m2!1ses-419!2sco!4v1636921674735!5m2!1ses-419!2sco" width="1800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     <div class="row">
+        <div class="col-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d986.2839403798065!2d-71.1889385!3d8.5829431!3m2!1i1024!2i768!4f13.1!2m1!1spedregosa%20alta%20calle%20cafetal%20casa%20D6-18.%20merida%20venezuela!5e0!3m2!1ses-419!2sco!4v1636921674735!5m2!1ses-419!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>  
+    </div>  
+
     
-	  <section class="final">                      
+	<section class="final">                      
                	  <div class="columna">
                     <li >
                         <img src="img/logo180x60.png" alt="Ellas Silvara">
@@ -184,20 +218,12 @@
 
    <footer class="oscuro">                    
     <p>Desarrollado por Maria Alejandra Silva Aruajo-2021 @Todos los derechos reservados</p> 
-    <br>
-    <br>
-    <br>
-    <br>
+   
   
     </footer>
-    
 
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    
-  
- 
+   <!--    <a href="https://api.whatsapp.com/send?phone=+51949968477&text=Hola, Nececito mas informacion!" class="float" target="_blank">		
+             <i class="fa fa-whatsapp my-float"></i>
+      </a> -->
 </body>
 </html>

@@ -9,43 +9,50 @@
     <title>Mi primer sitio web</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    
-
-<link rel="stylesheet" href="estilos.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		
-		<div class="textofloat1" >
-			
-		</div>
-		<a href="https://api.whatsapp.com/send?phone=+51949968477&text=Hola, Nececito mas informacion!" class="float" target="_blank">		
-		<i class="fa fa-whatsapp my-float"></i>
-		</a>
-
-
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+                
 </head>
 
 <body>
     <header>
-        <ol class="breadcrumb">
-            <li >
-                <img src="img/logo180x60.png" alt="Ellas Silvara">
-                
-            </li>
-            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-            <li class="breadcrumb-item"><a href="promociones.html">Promociones</a></li>
-            <li class="breadcrumb-item"><a href="galeria.html">Galeria</a></li>
-            <li class="breadcrumb-item"><a href="contactanos.html">Contactanos</a></li>
-         
-        </ol>
-
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="img/logo180x60.png" alt="Ellas Silvara">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio </a>
+                  </li>
+               
+                <li class="nav-item active">
+                  <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Promociones.html">Promociones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactanos.html">Contactanos</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
         
-      
-       
     </header>
+
     <section class="home" id="home">
 
         <div class="video-container">
@@ -54,30 +61,25 @@
         
     
     </section>
-    <br>
-    <section  class="seccionCentrada">
-        <br>
-        <br>
-        <h2 style="text-align:center">Sobre Nosotros</h2>
-        <table style="border:0px">
-            <thead>
-                <tr></tr>
-                <tr> 
-                </tr>
-            </thead>
-            <tbody>
-                <td>
-                    <td style="border: 0px;width: 40%;">
-                        <h3>Somos una pequeña empresa conformada por las hermana Silvara, que abrio sus puertas en septiembre de 2021, con la finalidad de ofrecer productos tanto para hombres y damas.</h3>
-                    <td>
-                    <td style="border:0px">
-                        <img src="img/mujer.png" alt="Ropa de mujer">
-                    </td>
-                </td>
-            </tbody>
-        </table>
-       
+    
+    <!-- Seccion de Sobre nosotros -->
+    <section >
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="img/mujer2.png" alt="..." /></div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Sobre Nosotros</h2>
+                        <p>Somos una pequeña empresa conformada por las hermana Silvara, que abrio sus puertas en septiembre de 2021, con la finalidad de ofrecer productos tanto para hombres y dama.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
+    </section> -->
     <section class="final">  
         <li >
             <img src="img/logo180x60.png" alt="Ellas Silvara">
@@ -124,11 +126,11 @@
       
     </footer>
         
-    
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    
+        <a href="https://api.whatsapp.com/send?phone=+51949968477&text=Hola, Nececito mas informacion!" class="float" target="_blank">		
+            <i class="fa fa-whatsapp my-float"></i>
+       </a>
+        
+ 
 </body>
 </html>

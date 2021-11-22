@@ -14,40 +14,51 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		
     <div class="textofloat1" >
-        
-    </div>
-    <a href="https://api.whatsapp.com/send?phone=+51949968477&text=Hola, Nececito mas informacion!" class="float" target="_blank">		
-    <i class="fa fa-whatsapp my-float"></i>
-    </a>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="estilos.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
     <header>
-        <ol class="breadcrumb">
-            <li >
-                <img src="img/logo180x60.png" alt="Ellas Silvara">
-                
-            </li>
-            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-            <li class="breadcrumb-item"><a href="promociones.html">Promociones</a></li>
-            <li class="breadcrumb-item"><a href="galeria.html">Galeria</a></li>
-            <li class="breadcrumb-item"><a href="contactanos.html">Contactanos</a></li>
-         
-        </ol>
-
-        
-      
-        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="img/logo180x60.png" alt="Ellas Silvara">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio </a>
+                  </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Promociones.html">Promociones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactanos.html">Contactanos</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
        
+
+    
     </header>
     <div class="sec">
         <div id="demo" class="carousel slide" data-ride="carousel">
@@ -88,45 +99,55 @@
         </div>
    
     </section> 
-    <section class="seccionCentrada">
-       
-        <h2 style="text-align:center">PROMOCIONES</h2>
-        <table class="table1" style="border-radius: 30px;  border: 1px solid rgb(201, 194, 194);">
-            <thead>
-                <tr style="width: 25%;"></tr>
-                <tr style="width: 25%;"></tr>
-                <tr style="width: 25%;"></tr>
-                <tr style="width: 25%;"></tr>
-               
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="img/damas2.png" alt="ropa dama">
-                    </td>
-                    <td>
-                        <img src="img/gorra.png" alt="Gorra">
-                    </td>
-                    <td>
-                        <img src="img/maquillaje.png" alt="Producto de maquillaje">
-                    </td>
-                    <td>
-                        <img src="img/images.png" alt="Perfume para caballero">
-                    </td>
-                  
+    <section class="about">
 
-                </tr>
-               
-
-
-            </tbody>
-
-
-        </table>
-
-
-
-    </section>
+      <h2 style="color: #080808;text-align: center" class="vc_custom_heading">Promociones</h2>
+  
+      <div class="row">
+  
+          <div class="image">
+              <img src="img/maquillaje.png" alt="">
+          </div>
+  
+          <div class="content">
+              <h2>Promociones Ellas Silvara</h2>
+              <p>Ofrecer la oportunidad a tu cliente de apartar tu producto sin pagarlo completamente permite fidelizar clientes. Las marcas que permiten este tipo de beneficios aumentan la lealtad: si aumentas los cupos de crédito para un cliente, es más probable que en el futuro inmediatodestine su presupuesto a tu marca y no a la competencia.</p>
+              <p>Ellas silvara, ofrecemos a nuestra clientela, promociones 2×1 los martes y jueves. No dejes de visitarnos, y de seguro te enamoras.</p>
+          </div>
+          
+      </div>
+  
+      <div class="icons-container">
+  
+          <div class="icons">
+              <img src="img/images.png" alt="">
+              <h3>Carteras de Caballeros</h3>
+          </div>
+  
+          <div class="icons">
+              <img src="img/accesorios_775.png" alt="">
+              <h3>Accesorios para hombres</h3>
+          </div>
+  
+          <div class="icons">
+              <img src="img/damas2.png" alt="">
+              <h3>Accesorios para mujeres</h3>
+          </div>
+  
+          <div class="icons">
+              <img src="img/ropa hombre.png" alt="">
+              <h3>Accesorios de caballeros</h3>
+          </div>
+  
+          <div class="icons">
+              <img src="img/carterasdivinaejecutiva.png" alt="">
+              <h3>Carteras para mujeres</h3>
+          </div>
+  
+      </div>
+  
+  </section>
+   
     <section class="final">  
         <li >
             <img src="img/logo180x60.png" alt="Ellas Silvara">
@@ -169,15 +190,16 @@
     </section>
     <footer class="oscuro">                    
         <p>Desarrollado por Maria Alejandra Silva Aruajo-2021 @Todos los derechos reservados</p> 
-        <br>
+        
       
         </footer>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=+51949968477&text=Hola, Nececito mas informacion!" class="float" target="_blank">		
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
        
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-        
+       
     
 </body>
 </html>

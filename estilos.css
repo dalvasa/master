@@ -4,33 +4,10 @@
      padding: 0;
      box-sizing: border-box;
   }
+#espaciado{
+    height: 20px;
+ }
 
-
-
-
-
-/* nav  { 
-  display: inline-block;
-  
- }  */
-.navegador li { 
-    display: inline-block; 
-
-   }
-
- .navegador li p { 
-    display:inline-block; 
-    color:red;
-    text-align:left;
-    font-size: x-large;
-    } 
-   
-  .navegador li a { 
-   text-decoration: none;
-   font-size:20px;
-   font-weight: 100;
-   font-family:"Open Sans Condesed",sans-serif;
-   } 
      
   .home{
      min-height: 100vh;
@@ -70,6 +47,9 @@
    }
    .oscuro{
     background-color:rgb(78, 74, 74) ;
+   /*  width:100%; */
+    height:300px;
+    
    }
    
 	.columna {
@@ -166,14 +146,7 @@ h1 {
 
 .item1{
   background-color: rgb(247, 247, 253);
-  /* grid-column: 1;
-  grid-row: 2;
-
-  grid-row-start: 1;
-  grid-row-end: 3;
-
-  grid-column-start: 1;
-  grid-column-end: 2; */
+  
 
   background-image: url(img/damas2.png);
 
@@ -197,9 +170,7 @@ background-position: center;
 .item3{
   grid-area: "item3" ;
   background-color: palevioletred;
-  /* grid-column: 2;
-  grid-column-start: 3;
-  grid-column-end: 5; */
+  
 
   grid-column: 3/5 ;
   background-image: url(img/mujer-hombre.png);
@@ -209,8 +180,7 @@ background-position: center;
 .item4{
   grid-area: "item4" ;
   background-color: rgb(252, 250, 255);
-  /* grid-row-start: 2;
-  grid-column-end: 4; */
+  
 
   grid-row: 2/4;
   background-image: url(img/carterasdivinaejecutiva.png);
@@ -279,12 +249,12 @@ background-position: center;
 /* pagina contactenos */
 
   .all-contact-form .left-sides-f{
-    display: inline-block;
+   
     width: 49%;
     float: left;
   }
   .all-contact-form .right-sides-f{
-    display: inline-block;
+    
     width: 49%;
     float: right;
   }
@@ -318,21 +288,22 @@ background-position: center;
   
   .all-contact-form input[type="button"]{
     border: none;
-    background-color: #c02dcd;
-    text-transform: uppercase;
+    background-color: #82098d;
+   text-transform: none;
     padding: 10px 35px;
     color: #fff;
-    font-weight: 600;
-    font-size: 1.500em;
+    font-weight: 900;
+    font-size: 1.200em;
     transition: background-color .4s ease-in-out;
+    width: 100%;
+    height: 40px;
   }
   
   .all-contact-form input[type="button"]:hover{
-    background-color: #8F782F;
+    background-color: #f57af5;
   }
   
   .all-contact-form .input-btn {
-    display: inline-block;
     text-align: right;
     float: right;
     margin-bottom: 0;
@@ -340,7 +311,6 @@ background-position: center;
   }
   
   .all-contact-form p {
-    display: inline-block;
     margin-top: 13px;
   }
   
@@ -363,10 +333,11 @@ background-position: center;
   
   #map-content{
     height: 100%;
-    max-width: 50%;
+    max-width: 100%;
   } 
   #map-canvas{
-    height: 400px;
+    height: 100px;
+    width: 100px;
   }
   #heading{
     font-size: 1.500em;
@@ -518,6 +489,85 @@ element.style {
 
 
 
+/* promociones */
+.about .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
 
+.about .row .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
 
+.about .row .image img {
+  width: 70%;
+  border-radius: .3rem;
+}
 
+.about .row .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about .row .content h3 {
+  font-size: 3.5rem;
+  color: #333;
+  line-height: 2;
+}
+
+.about .row .content p {
+  font-size: 1.0rem;
+  line-height: 1.5;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.about .icons-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.about .icons-container .icons {
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  border: 0.2rem solid #333;
+  text-align: center;
+  cursor: pointer;
+}
+
+.about .icons-container .icons:hover {
+  background: #333;
+}
+
+.about .icons-container .icons:hover img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.about .icons-container .icons:hover h3 {
+  color: #fff;
+}
+
+.about .icons-container .icons img {
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+
+.about .icons-container .icons h3 {
+  font-size: 1.7rem;
+  color: #333;
+}
